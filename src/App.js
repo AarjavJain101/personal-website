@@ -30,7 +30,7 @@ function App() {
                 <Routes>
                     <Route
                         exact
-                        path="/"
+                        path="/personal-website/"
                         element={
                             <div className="wrapper">
                                 <div className="hero">

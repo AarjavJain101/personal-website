@@ -13,7 +13,7 @@ const Header = (props) => {
     };
 
     const goToHomePage = () => {
-        history("/");
+        history("/personal-website/");
         window.location.reload();
     };
 
