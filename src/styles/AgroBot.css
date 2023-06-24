@@ -1,0 +1,51 @@
+.agrobot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 60vw;
+}
+
+.agrobot-title {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: white;
+    margin-top: 5vh;
+}
+
+.agrobot-logo {
+    width: 20%;
+    height: auto;
+    margin-top: 1vh;
+    margin-bottom: 3vh;
+}
+
+.agrobot-contouring-text,
+.crop-detection {
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgb(215, 206, 206);
+    margin-bottom: 2vh;
+}
+
+.crop-detection {
+    margin-top: 5vh;
+}
+
+.agrobot-contouring-image,
+.bounding-boxes-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 3vh;
+}
+
+.experiences-line {
+    position: absolute;
+    top: 86%;
+    width: 70%;
+    z-index: 4;
+    color: white;
+    margin-top: 11px;
+}

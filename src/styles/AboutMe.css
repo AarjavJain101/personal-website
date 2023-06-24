@@ -1,0 +1,136 @@
+.about-me {
+    position: relative;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.about-me-title-container {
+    position: absolute;
+    left: 45.5vw;
+    top: 6vh;
+    color: white;
+}
+
+.about-me-title-text {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.about-me-line {
+    position: absolute;
+    top: 13.5vh;
+    width: 69%;
+    z-index: 4;
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 11px;
+}
+
+.about-me-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-me-images {
+    align-items: center;
+}
+
+.about-me-images,
+.about-me-text {
+    display: flex;
+    column-gap: 40px;
+    justify-content: center;
+    text-align: center;
+}
+
+.about-me-text {
+    align-items: top;
+}
+
+.about-me-images {
+    margin-top: 7vh;
+}
+
+.about-me-leader,
+.about-me-learner,
+.about-me-profile-picture {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.about-me-leader,
+.about-me-learner,
+.about-me-leader-text,
+.about-me-learner-text {
+    width: 18vw;
+}
+
+.about-me-profile-picture,
+.about-me-profile-picture-text {
+    width: 25vw;
+}
+
+.about-me-leader-image,
+.about-me-learner-image {
+    max-width: 50%;
+    max-height: 50%;
+    width: auto;
+    height: auto;
+}
+
+.about-me-profile-picture-image {
+    max-width: 57.69%;
+    max-height: 57.69%;
+    width: auto;
+    height: auto;
+    margin-bottom: 6vh;
+}
+
+.about-me-leader-text,
+.about-me-profile-picture-text,
+.about-me-learner-text {
+    font-size: 16px;
+    font-weight: 350;
+    color: rgb(215, 206, 206);
+}
+
+.subheading {
+    margin-top: 3vh;
+    margin-bottom: 2vh;
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+}
+
+.projects-button,
+.projects-button-experience-section {
+    margin-top: 3vh;
+    margin-bottom: 2vh;
+    display: inline-block;
+    border-radius: 100px;
+    border: 0;
+    color: #fff;
+    background: #4c64e9;
+    padding: 12px 20px;
+    line-height: 1;
+    font-weight: 640;
+}
+
+.projects-button:hover,
+.projects-button-experience-section:hover {
+    transition: 0.2s ease-in-out;
+    background-color: rgb(59, 56, 223);
+    box-shadow: inset 0 0px 2px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.projects-button:active,
+.projects-button-experience-section:active {
+    transition: 0.08s ease-in-out;
+    box-shadow: inset 0 5px 6px rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,103 @@
+.header-container {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 12vh;
+    background-color: transparent;
+    color: white;
+    width: 100%;
+    z-index: 1;
+}
+
+.logo {
+    margin-left: 2vw;
+    margin-top: 5vh;
+    cursor: pointer;
+    text-align: center;
+}
+
+.logo-image {
+    width: 12vw;
+    height: auto;
+    border-radius: 4%;
+}
+
+.hamburger,
+.change-hamburger {
+    display: inline-block;
+    cursor: pointer;
+    width: 7vh;
+    height: 7vh;
+    border-radius: 14vh;
+    transition: 0.1s;
+    margin-right: 4vw;
+    margin-top: 2vh;
+}
+
+.hamburger {
+    background-color: #4c64e9;
+    padding-top: 1.42vh;
+}
+
+.change-hamburger {
+    background-color: black;
+    border: 2px solid #4c64e9;
+    padding-left: 0.25vw;
+    padding-top: 1.25vh;
+}
+
+.change-hamburger:hover {
+    transition: 0.2s;
+    padding-left: 0.35vw;
+    padding-top: 1.45vh;
+    border: none;
+}
+
+.hamburger:hover {
+    transition: 0.2s ease-in-out;
+    background-color: rgb(59, 56, 223);
+    box-shadow: inset 0 0px 2px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.hamburger:active {
+    transition: 0.08s ease-in-out;
+    box-shadow: inset 0 5px 6px rgba(0, 0, 0, 0.2);
+}
+
+.bar1,
+.bar2,
+.bar3 {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 6px 0;
+    transition: 0.4s;
+    margin-left: 1.14vw;
+    border-radius: 10px;
+}
+
+.change .bar1 {
+    transform: translate(0, 9px) rotate(-45deg);
+    background-color: #4c64e9;
+    margin-left: 0.75vw;
+}
+
+.change .bar2 {
+    opacity: 0;
+    background-color: #4c64e9;
+}
+
+.change .bar3 {
+    transform: translate(0, -9px) rotate(45deg);
+    background-color: #4c64e9;
+    margin-left: 0.75vw;
+}
+
+.go-home {
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+}

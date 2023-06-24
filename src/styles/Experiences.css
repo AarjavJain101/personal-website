@@ -1,0 +1,21 @@
+.experiences-wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.projects-heading {
+    margin-top: 5vh;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: white;
+}
+
+.projects-button-experience-section {
+    margin-bottom: 7vh;
+}

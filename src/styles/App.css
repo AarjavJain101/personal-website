@@ -1,0 +1,45 @@
+.wrapper {
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    transform-style: preserve-3d;
+    perspective: 10px;
+}
+
+.hero {
+    z-index: 10;
+}
+
+.divider-1 {
+    position: absolute;
+    top: 70vh;
+    width: 100vw;
+    z-index: -3;
+    transform: translateZ(-15px) scale(4);
+}
+
+.divider-image {
+    width: 100%;
+    height: 100%;
+}
+
+.about-me-page {
+    position: absolute;
+    top: 105vh;
+    z-index: 10;
+}
+
+.experiences {
+    position: relative;
+    top: 150vh;
+    z-index: 10;
+}
+
+.divider-2 {
+    position: absolute;
+    top: 420vh;
+    width: 100vw;
+    height: auto;
+    z-index: -3;
+    transform: translateZ(-8px) scale(3.4);
+}
