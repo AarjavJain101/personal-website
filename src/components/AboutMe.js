@@ -44,9 +44,10 @@ const AboutMe = () => {
                 </div>
                 <div className="about-me-text">
                     <p className="about-me-leader-text">
-                        From experience gained as an Air Cadet to various volunteering, I strive to bring out
-                        the best in myself and others because doing so produces mutual growth. This means
-                        working diligently as a role model and being a reliable source for my peers.
+                        From experience gained as an Air Cadet to various volunteering oppurtunities, I strive
+                        to bring out the best in myself and others because doing so produces mutual growth.
+                        This means working diligently as a role model and being a reliable source for my
+                        peers.
                     </p>
                     <p className="about-me-profile-picture-text">
                         Hey! <strong>I am Aarjav Jain</strong>, a student at UBCV who loves learning and
