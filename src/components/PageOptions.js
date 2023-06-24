@@ -8,7 +8,7 @@ const PageOptions = (props) => {
     return (
         <div className={`page-options ${showPageOptions ? "show" : ""}`}>
             <div className="options">
-                <Link to="/" className="home" onClick={handlePageOptions}>
+                <Link to="/personal-website/" className="home" onClick={handlePageOptions}>
                     Home
                 </Link>
                 <Link to="/projects" className="projects" onClick={handlePageOptions}>
