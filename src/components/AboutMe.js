@@ -9,7 +9,7 @@ const AboutMe = () => {
     const navigate = useNavigate();
 
     const handleProjectsButton = () => {
-        navigate("/projects");
+        navigate("/personal-website/projects");
     };
 
     return (

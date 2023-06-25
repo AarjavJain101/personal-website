@@ -11,7 +11,7 @@ const PageOptions = (props) => {
                 <Link to="/personal-website/" className="home" onClick={handlePageOptions}>
                     Home
                 </Link>
-                <Link to="/projects" className="projects" onClick={handlePageOptions}>
+                <Link exact to="/personal-website/projects" className="projects" onClick={handlePageOptions}>
                     Projects
                 </Link>
                 <a

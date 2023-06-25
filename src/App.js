@@ -61,7 +61,7 @@ function App() {
                             </div>
                         }
                     ></Route>
-                    <Route path="/projects" element={<Projects></Projects>}></Route>
+                    <Route exact path="/personal-website/projects" element={<Projects></Projects>}></Route>
                 </Routes>
             </div>
         </Router>

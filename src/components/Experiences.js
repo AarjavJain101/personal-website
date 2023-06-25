@@ -7,7 +7,7 @@ const Experiences = () => {
     const navigate = useNavigate();
 
     const handleProjectsButton = () => {
-        navigate("/projects");
+        navigate("/personal-website/projects");
     };
 
     return (
