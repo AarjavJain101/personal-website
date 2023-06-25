@@ -56,6 +56,7 @@ const AboutMe = () => {
                         thinking skills, resiliency, and innovative nature to prosper in the field of Computer
                         Engineering. For far in my programming journey,
                         <strong> I have created projects with UBC AgroBot and on the Projects page!</strong>
+                        <br />
                         <button type="button" className="projects-button" onClick={handleProjectsButton}>
                             Projects
                         </button>

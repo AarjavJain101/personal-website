@@ -43,3 +43,18 @@
     z-index: -3;
     transform: translateZ(-8px) scale(3.4);
 }
+
+@media (max-width: 450px) {
+    .divider-1 {
+        top: 30vh;
+        transform: translateZ(-20px) scale(20);
+    }
+    .about-me-page {
+        top: 73vh;
+    }
+    .divider-2 {
+        top: 400vh;
+        transform: translateZ(-20px) scale(23);
+        right: 160vw;
+    }
+}

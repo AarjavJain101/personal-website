@@ -101,3 +101,33 @@
     transition: 0.08s ease-in-out;
     box-shadow: inset 0 5px 6px rgba(0, 0, 0, 0.2);
 }
+
+@media (max-width: 450px) {
+    .hero {
+        height: 50vh;
+    }
+    .hero-title {
+        font-size: 25px;
+    }
+    .hero-subtitle {
+        font-size: 12px;
+        font-weight: 300;
+    }
+    .hero-subtitle-1 {
+        top: 60%;
+    }
+    .hero-subtitle-2 {
+        top: 72%;
+    }
+    .hero-line {
+        top: 66%;
+        width: 40%;
+    }
+    .resume-button {
+        width: 95px;
+        height: 30px;
+        font-size: 12px;
+        padding: 0;
+        top: 85%;
+    }
+}

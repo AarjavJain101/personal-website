@@ -107,6 +107,11 @@
     color: white;
 }
 
+.projects-button::before {
+    content: "";
+    display: block;
+}
+
 .projects-button,
 .projects-button-experience-section {
     margin-top: 3vh;
@@ -133,4 +138,55 @@
 .projects-button-experience-section:active {
     transition: 0.08s ease-in-out;
     box-shadow: inset 0 5px 6px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 450px) {
+    .hero {
+        height: 50vh;
+    }
+    .about-me-title-container {
+        left: 39vw;
+    }
+    .about-me-title-text {
+        font-size: 23px;
+    }
+    .about-me-line {
+        top: 11.5vh;
+    }
+    .about-me-info {
+        display: flex;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .about-me-images {
+        display: grid;
+        top: 11vh;
+        left: -2vw;
+        row-gap: 90px;
+        position: absolute;
+    }
+    .about-me-text {
+        display: grid;
+        top: 15vh;
+        left: 36vw;
+        position: absolute;
+    }
+    .about-me-leader-text,
+    .about-me-learner-text,
+    .about-me-profile-picture-text {
+        font-size: 13px;
+        width: 60vw;
+    }
+
+    .about-me-leader,
+    .about-me-learner,
+    .about-me-profile-picture {
+        width: 40vw;
+    }
+    .subheading {
+        margin-top: 3vh;
+        font-size: 15px;
+        max-width: 100px;
+    }
 }

@@ -38,10 +38,40 @@
     color: rgb(215, 206, 206);
 }
 
-.image-caption {
+.image-caption-beat {
     font-size: 18px;
     font-weight: 600;
     text-align: center;
     color: white;
     padding-top: 2vh;
+}
+
+@media (max-width: 450px) {
+    .beat-detector-title-text {
+        font-size: 25px;
+    }
+    .beat-detector-content {
+        flex-direction: column;
+        text-align: center;
+        row-gap: 3vh;
+        padding-top: 2vh;
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+    .beat-detector-image-container {
+        width: 80vw;
+        height: auto;
+    }
+    .beat-detector-text-paragraph {
+        font-size: 13px;
+        font-weight: 400;
+        color: rgb(215, 206, 206);
+    }
+    .beat-detector-image {
+        width: 150px;
+        height: auto;
+    }
+    .image-caption-beat {
+        font-size: 15px;
+    }
 }

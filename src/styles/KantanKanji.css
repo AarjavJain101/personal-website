@@ -76,3 +76,33 @@
     color: white;
     padding-top: 2vh;
 }
+
+@media (max-width: 450px) {
+    .kk-title-text {
+        font-size: 25px;
+    }
+    .kk-content {
+        display: flex;
+        flex-direction: column;
+        row-gap: 5vh;
+        text-align: center;
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+    .kk-image-container {
+        width: 70vw;
+        height: auto;
+    }
+    .kk-line {
+        position: absolute;
+        margin-bottom: 33vh;
+        width: 70%;
+    }
+    .github-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 12vh 30vw 5vh 30vw;
+    }
+}

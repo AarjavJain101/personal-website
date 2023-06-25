@@ -36,7 +36,7 @@ const BeatDetector = () => {
                             draggable="false"
                         />
                     </a>
-                    <h4 className="image-caption">(Click on image)</h4>
+                    <h4 className="image-caption-beat">(Click on image)</h4>
                 </div>
             </div>
         </div>

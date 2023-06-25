@@ -49,3 +49,21 @@
     color: white;
     margin-top: 11px;
 }
+
+@media (max-width: 450px) {
+    .agrobot-title {
+        padding-left: 50px;
+        padding-right: 50px;
+        font-size: 1.6rem;
+    }
+    .agrobot-logo {
+        width: 40%;
+    }
+    .agrobot {
+        width: 80vw;
+    }
+    .experiences-line {
+        top: 85%;
+        width: 85%;
+    }
+}

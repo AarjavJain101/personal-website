@@ -24,7 +24,7 @@ const PageOptions = (props) => {
                 </a>
                 <a
                     href="https://www.linkedin.com/in/aarjav-jain-734b8b204/"
-                    className="linked-in"
+                    className="linked-in-btn"
                     target="_blank"
                     rel="noreferrer"
                 >

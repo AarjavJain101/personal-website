@@ -39,3 +39,23 @@
     font-weight: 400;
     color: rgb(215, 206, 206);
 }
+
+@media (max-width: 450px) {
+    .dfft-title-text {
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .dfft-content {
+        display: flex;
+        flex-direction: column;
+        row-gap: 5vh;
+        text-align: center;
+        padding-top: 2vh;
+        padding-left: 3vw;
+        padding-right: 3vw;
+    }
+    .dfft-image {
+        width: 50vw;
+        height: auto;
+    }
+}

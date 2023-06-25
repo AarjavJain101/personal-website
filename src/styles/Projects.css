@@ -65,3 +65,26 @@
     position: absolute;
     top: 320vh;
 }
+
+@media (max-width: 450px) {
+    .heading-text {
+        padding-top: 14vh;
+        font-size: 2.2rem;
+    }
+    .projects-divider-1 {
+        top: 90vh;
+        transform: translateZ(-15px) scale(7.5);
+    }
+    .projects-divider-2 {
+        top: 180vh;
+        left: 160vw;
+        transform: translateZ(-6.5px) scale(7);
+    }
+    .projects-divider-3 {
+        position: absolute;
+        top: 290vh;
+        z-index: -3;
+        left: 120vw;
+        transform: translateZ(-8px) scale(6.3);
+    }
+}

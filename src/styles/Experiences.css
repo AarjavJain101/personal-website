@@ -16,6 +16,20 @@
     color: white;
 }
 
+.projects-button-experience-section::before {
+    content: "";
+    display: block;
+}
+
 .projects-button-experience-section {
     margin-bottom: 7vh;
+}
+
+@media (max-width: 450px) {
+    .projects-heading {
+        font-size: 1rem;
+    }
+    .projects-button-experience-section {
+        margin-top: 15px;
+    }
 }
