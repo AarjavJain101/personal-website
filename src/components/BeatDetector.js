@@ -1,8 +1,16 @@
 import React from "react";
+import { useEffect } from "react";
 import "../styles/BeatDetector.css";
 import BeatDetectorImage from "../images/Beat_detector.png";
 
 const BeatDetector = () => {
+    useEffect(() => {
+        const BeatDetectorContent = document.querySelector(".beat-detector-content");
+        BeatDetectorContent.classList.add("visible");
+        const BeatDetectorTitle = document.querySelector(".beat-detector-title");
+        BeatDetectorTitle.classList.add("visible");
+    }, []);
+
     return (
         <div className="beat-detector-container">
             <div className="beat-detector-title">

@@ -1,4 +1,5 @@
 import React from "react";
+import { useEffect } from "react";
 import "../styles/Hero.css";
 import BackgroundImage from "../images/Better_Weebly_Background.gif";
 import Resume from "./AarjavJain_Resume.pdf";
@@ -8,6 +9,17 @@ const Hero = () => {
         console.log("Hello");
         window.open(Resume, "_blank");
     };
+
+    useEffect(() => {
+        const heroTextContainer = document.querySelector(".hero-title");
+        heroTextContainer.classList.add("visible");
+        const heroSubtitleOneContainer = document.querySelector(".hero-subtitle-1");
+        heroSubtitleOneContainer.classList.add("visible");
+        const heroSubtitleTwoContainer = document.querySelector(".hero-subtitle-2");
+        heroSubtitleTwoContainer.classList.add("visible");
+        const resumeButton = document.querySelector(".resume-button");
+        resumeButton.classList.add("visible");
+    }, []);
 
     return (
         <div className="hero">

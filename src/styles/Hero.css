@@ -45,11 +45,24 @@
     justify-content: center;
 }
 
+.hero-title,
+.hero-subtitle-1,
+.hero-subtitle-2 {
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: opacity 0.8s, transform 0.5s;
+}
+
 .hero-title {
     position: absolute;
     font-size: 50px;
     font-weight: 650;
     color: white;
+}
+
+.hero-title.visible {
+    opacity: 1;
+    transform: translateX(0);
 }
 
 .hero-subtitle {
@@ -62,6 +75,12 @@
 
 .hero-subtitle-1 {
     top: 65%;
+    transition-delay: 0.1s;
+}
+
+.hero-subtitle-1.visible {
+    opacity: 1;
+    transform: translateX(0);
 }
 
 .hero-line {
@@ -75,6 +94,12 @@
 
 .hero-subtitle-2 {
     top: 77%;
+    transition-delay: 0.15s;
+}
+
+.hero-subtitle-2.visible {
+    opacity: 1;
+    transform: translateX(0);
 }
 
 .resume-button {
@@ -88,6 +113,12 @@
     padding: 12px 20px;
     line-height: 1;
     font-weight: 640;
+    opacity: 0;
+    transition: opacity 2s;
+}
+
+.resume-button.visible {
+    opacity: 1;
 }
 
 .resume-button:hover {

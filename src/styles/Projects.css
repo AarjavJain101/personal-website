@@ -18,11 +18,19 @@
     font-size: 3rem;
     font-weight: 600;
     color: #fff;
+    opacity: 0;
+    transform: translateY(-200%);
+    transition: opacity 0.9s, transform 0.7s;
+}
+
+.heading-text.visible {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 .projects-divider-1 {
     position: absolute;
-    top: 50vh;
+    top: 60vh;
     width: 100vw;
     z-index: -3;
     transform: translateZ(-15px) scale(2.5);
@@ -35,7 +43,7 @@
 
 .nst-container {
     position: absolute;
-    top: 48vh;
+    top: 50vh;
 }
 
 .projects-divider-2 {
@@ -44,7 +52,7 @@
     right: 3vw;
     width: 100vw;
     z-index: -3;
-    transform: translateZ(-6.5px) scale(1.7);
+    transform: translateZ(-6.5px) scale(2);
 }
 
 .dfft-container {
@@ -54,11 +62,11 @@
 
 .projects-divider-3 {
     position: absolute;
-    top: 260vh;
+    top: 263vh;
     width: 100vw;
     z-index: -3;
     right: 0.5vw;
-    transform: translateZ(-5.5px) scale(1.79);
+    transform: translateZ(-5.5px) scale(2);
 }
 
 .kk-container {

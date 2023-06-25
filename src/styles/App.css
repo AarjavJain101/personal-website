@@ -12,10 +12,10 @@
 
 .divider-1 {
     position: absolute;
-    top: 70vh;
+    top: 88vh;
     width: 100vw;
     z-index: -3;
-    transform: translateZ(-15px) scale(4);
+    transform: translateZ(-15px) scale(4.7);
 }
 
 .divider-image {
@@ -41,7 +41,7 @@
     width: 100vw;
     height: auto;
     z-index: -3;
-    transform: translateZ(-8px) scale(3.4);
+    transform: translateZ(-8px) scale(4);
 }
 
 @media (max-width: 450px) {
