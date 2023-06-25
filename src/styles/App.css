@@ -46,15 +46,15 @@
 
 @media (max-width: 450px) {
     .divider-1 {
-        top: 30vh;
-        transform: translateZ(-20px) scale(20);
+        top: 100vh;
+        transform: translateZ(-15px) scale(15);
     }
     .about-me-page {
         top: 73vh;
     }
     .divider-2 {
-        top: 400vh;
-        transform: translateZ(-20px) scale(23);
+        top: 420vh;
+        transform: translateZ(-13px) scale(18);
         right: 160vw;
     }
 }
