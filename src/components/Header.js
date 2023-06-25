@@ -1,25 +1,22 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
 import Logo from "../images/Logo.png";
 import "../styles/Header.css";
 
 const Header = (props) => {
-    const { showPageOptions, handlePageOptions } = props;
-
-    const history = useNavigate();
+    const { showPageOptions, handlePageOptions, handleShowProjectsHome } = props;
 
     const handleChange = () => {
         handlePageOptions();
     };
 
-    const goToHomePage = () => {
-        history("/personal-website/");
-        window.location.reload();
-    };
-
     return (
         <div className="header-container">
-            <div className="logo" onClick={goToHomePage}>
+            <div
+                className="logo"
+                onClick={() => {
+                    handleShowProjectsHome();
+                }}
+            >
                 <h2 className="go-home">Home ⬇</h2>
                 <img className="logo-image" src={Logo} alt="Logo" draggable="false" />
             </div>

@@ -1,16 +1,11 @@
 import React from "react";
 import "../styles/AboutMe.css";
-import { useNavigate } from "react-router-dom";
 import Leader from "../images/leader.png";
 import Learner from "../images/Learner.png";
 import profilePicture from "../images/Profile_Picture.jpg";
 
-const AboutMe = () => {
-    const navigate = useNavigate();
-
-    const handleProjectsButton = () => {
-        navigate("/personal-website/projects");
-    };
+const AboutMe = (props) => {
+    const { handleShowProjects } = props;
 
     return (
         <div className="about-me">
@@ -57,7 +52,13 @@ const AboutMe = () => {
                         Engineering. For far in my programming journey,
                         <strong> I have created projects with UBC AgroBot and on the Projects page!</strong>
                         <br />
-                        <button type="button" className="projects-button" onClick={handleProjectsButton}>
+                        <button
+                            type="button"
+                            className="projects-button"
+                            onClick={() => {
+                                handleShowProjects();
+                            }}
+                        >
                             Projects
                         </button>
                     </p>

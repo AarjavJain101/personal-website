@@ -1,14 +1,9 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
 import AgroBot from "./AgroBot";
 import "../styles/Experiences.css";
 
-const Experiences = () => {
-    const navigate = useNavigate();
-
-    const handleProjectsButton = () => {
-        navigate("/personal-website/projects");
-    };
+const Experiences = (props) => {
+    const { handleShowProjects } = props;
 
     return (
         <div className="experiences-wrapper">
@@ -19,7 +14,9 @@ const Experiences = () => {
             <button
                 type="button"
                 className="projects-button-experience-section"
-                onClick={handleProjectsButton}
+                onClick={() => {
+                    handleShowProjects();
+                }}
             >
                 Projects
             </button>

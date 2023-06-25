@@ -1,19 +1,33 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "../styles/PageOptions.css";
 
 const PageOptions = (props) => {
-    const { showPageOptions, handlePageOptions } = props;
+    const { showPageOptions, handlePageOptions, handleShowProjects, handleShowProjectsHome } = props;
 
     return (
         <div className={`page-options ${showPageOptions ? "show" : ""}`}>
             <div className="options">
-                <Link to="/personal-website/" className="home" onClick={handlePageOptions}>
+                <h2
+                    to="/personal-website/"
+                    className="home"
+                    onClick={() => {
+                        handlePageOptions();
+                        handleShowProjectsHome();
+                    }}
+                >
                     Home
-                </Link>
-                <Link exact to="/personal-website/projects" className="projects" onClick={handlePageOptions}>
+                </h2>
+                <h2
+                    exact
+                    to="/personal-website/projects"
+                    className="projects"
+                    onClick={() => {
+                        handlePageOptions();
+                        handleShowProjects();
+                    }}
+                >
                     Projects
-                </Link>
+                </h2>
                 <a
                     href="https://www.linkedin.com/in/aarjav-jain-734b8b204/"
                     className="linked-in"
