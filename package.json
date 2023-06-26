@@ -2,7 +2,7 @@
     "homepage": "http://AarjavJain101.github.io/personal-website",
     "name": "personal-website",
     "version": "0.1.0",
-    "private": true,
+    "private": false,
     "dependencies": {
         "@react-spring/parallax": "^9.7.2",
         "@testing-library/jest-dom": "^5.16.5",
