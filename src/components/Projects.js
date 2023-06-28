@@ -9,11 +9,13 @@ import DividerParallax3 from "../images/images.png";
 import DividerParallax4 from "../images/DFFT.png";
 import DividerParallax5 from "../images/KANTAN_Kanji_LOGO.png";
 
-const Projects = () => {
+const Projects = (props) => {
+    const { showProjects } = props;
+
     useEffect(() => {
         const headingText = document.querySelector(".heading-text");
         headingText.classList.add("visible");
-    }, []);
+    }, [showProjects]);
 
     return (
         <div className="projects-container">
