@@ -1,5 +1,4 @@
 import React from "react";
-import { useEffect } from "react";
 import BeatDetector from "./BeatDetector";
 import NeuralStyleTransfer from "./NeuralStyleTransfer";
 import DFFT from "./DFFT";
@@ -9,14 +8,7 @@ import DividerParallax3 from "../images/images.png";
 import DividerParallax4 from "../images/DFFT.png";
 import DividerParallax5 from "../images/KANTAN_Kanji_LOGO.png";
 
-const Projects = (props) => {
-    const { showProjects } = props;
-
-    useEffect(() => {
-        const headingText = document.querySelector(".heading-text");
-        headingText.classList.add("visible");
-    }, [showProjects]);
-
+const Projects = () => {
     return (
         <div className="projects-container">
             <div className="heading">

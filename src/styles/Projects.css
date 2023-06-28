@@ -18,14 +18,6 @@
     font-size: 3rem;
     font-weight: 600;
     color: #fff;
-    opacity: 0;
-    transform: translateY(-200%);
-    transition: opacity 0.9s, transform 0.7s;
-}
-
-.heading-text.visible {
-    opacity: 1;
-    transform: translateY(0);
 }
 
 .projects-divider-1 {

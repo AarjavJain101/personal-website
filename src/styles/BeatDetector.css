@@ -9,15 +9,6 @@
     text-align: center;
     color: white;
     padding-top: 6vh;
-    opacity: 0;
-    transform: translateY(-100%);
-    transition: opacity 0.9s, transform 0.7s;
-}
-
-.beat-detector-title.visible {
-    opacity: 1;
-    transform: translateY(0);
-    transition-delay: 0.1s;
 }
 
 .beat-detector-title-text {
@@ -34,15 +25,6 @@
     padding-top: 5vh;
     padding-left: 11vw;
     padding-right: 13vw;
-    opacity: 0;
-    transform: translateY(-30%);
-    transition: opacity 0.9s, transform 0.7s;
-    transition-delay: 0.2s;
-}
-
-.beat-detector-content.visible {
-    opacity: 1;
-    transform: translateY(0);
 }
 
 .beat-detector-image-container {

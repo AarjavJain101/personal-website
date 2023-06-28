@@ -69,7 +69,7 @@ function App() {
                     </div>
                 </div>
             ) : (
-                <Projects showProjects={showProjects}></Projects>
+                <Projects></Projects>
             )}
         </div>
     );
