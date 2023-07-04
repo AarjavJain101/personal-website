@@ -45,11 +45,13 @@ const AboutMe = (props) => {
                         peers.
                     </p>
                     <p className="about-me-profile-picture-text">
-                        Hey! <strong>I am Aarjav Jain</strong>, a student at UBCV who loves learning and
-                        guiding others whenever I can. Whether its in my academics or personal life I always
-                        aspire to tackle challenges I set for myself. Overall, I desire to use my critical
-                        thinking skills, resiliency, and innovative nature to prosper in the field of Computer
-                        Engineering. For far in my programming journey,
+                        Hey! <strong>I am Aarjav Jain</strong>, a student at UBCV. Whether its in my academics
+                        or personal life I always aspire to tackle challenges I set for myself. From creating
+                        personal projects in Python, C/C++, and React.js to working with my design team (UBC
+                        AgroBot) on our Convolutional Neural Network and other projects, I strive to expand my
+                        knowledge in the computer engineering world. Overall, I desire to use my critical
+                        thinking skills, resiliency, and innovative nature to push myself and others. So far
+                        in my programming journey,
                         <strong> I have created projects with UBC AgroBot and on the Projects page!</strong>
                         <br />
                         <button
@@ -63,9 +65,9 @@ const AboutMe = (props) => {
                         </button>
                     </p>
                     <p className="about-me-learner-text">
-                        If I am not studying then I enjoy learning Japanese, programming (currently in C), or
-                        teaching myself future math and physics course content. In doing so I continue blowing
-                        my mind and aim for academic excellence!
+                        If I am not studying then I enjoy learning languages, programming (currently React.js
+                        and other Web Development), or teaching myself future math and physics course content.
+                        In doing so I can continue learning and aim for academic excellence!
                     </p>
                 </div>
             </div>
