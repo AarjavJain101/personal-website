@@ -15,9 +15,12 @@ const KantanKanji = () => {
                         ​In my first version of KANTAN Kanji, I created a terminal-run program which provides
                         an opportunity to review Japanese Kanji. I was motivated to make this project because
                         I wanted to satisfy a need that was not met by the current app I use for learning
-                        Japanese (called WaniKani). In the process of developing this program I learned much
-                        about C and what makes an effective reviewing application. Click on either image to
-                        visit my project on Replit.
+                        Japanese (called WaniKani).{" "}
+                        <strong>
+                            In the process of developing this program I learned much about C and what makes an
+                            effective reviewing application.
+                        </strong>{" "}
+                        Click on either image to visit my project on Replit.
                     </p>
                 </div>
                 <div className="kk-image-container">

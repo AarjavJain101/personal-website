@@ -21,11 +21,11 @@ const DFFT = () => {
                 </div>
                 <div className="dfft-text">
                     <p className="dfft-text-paragraph">
-                        ​This program contains algorithms to compute the DFT, DFFT, Inverse DFFT, and
-                        convolution using DFFT's. The two-fold goal of this project was to learn the
-                        mathematical concept of Fourier Transformations in a discrete and analytic sense, as
-                        well as learn more about C. To visit my month-long Fourier journey click on either
-                        image or check out my GitHub!
+                        ​This program contains algorithms to compute the{" "}
+                        <strong>DFT, DFFT, Inverse DFFT, and convolution using DFFT's</strong>. The two-fold
+                        goal of this project was to learn the mathematical concept of Fourier Transformations
+                        in a discrete and analytic sense, as well as learn more about C. To visit my
+                        month-long Fourier journey click on either image or check out my GitHub!
                     </p>
                 </div>
             </div>
