@@ -41,6 +41,9 @@
 }
 
 @media (max-width: 450px) {
+    .dfft-wrapper {
+        margin-top: 80px;
+    }
     .dfft-title-text {
         font-size: 20px;
         font-weight: 600;

@@ -72,11 +72,11 @@
         font-size: 2.2rem;
     }
     .projects-divider-1 {
-        top: 90vh;
+        top: 110vh;
         transform: translateZ(-15px) scale(7.5);
     }
     .projects-divider-2 {
-        top: 180vh;
+        top: 200vh;
         left: 160vw;
         transform: translateZ(-6.5px) scale(7);
     }

@@ -29,3 +29,9 @@
     text-align: center;
     padding: 6vh 15vw 4vh 15vw;
 }
+
+@media (max-width: 450px) {
+    .nst-container {
+        margin-top: 120px;
+    }
+}
