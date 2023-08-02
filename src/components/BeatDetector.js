@@ -7,7 +7,12 @@ const BeatDetector = () => {
     return (
         <div className="beat-detector-container">
             <div className="beat-detector-title">
-                <a target="_blank" href="https://beat-detector.netlify.app/" className="beat-detector-link">
+                <a
+                    rel="noreferrer"
+                    target="_blank"
+                    href="https://beat-detector.netlify.app/"
+                    className="beat-detector-link"
+                >
                     <h1 className="beat-detector-title-text">Beat Detector for LED Lights</h1>
                 </a>
             </div>
@@ -32,6 +37,7 @@ const BeatDetector = () => {
                         and other standard libraries to create a GUI for the light room experience. Credit to{" "}
                         <a
                             target="_blank"
+                            rel="noreferrer"
                             href="https://www.linkedin.com/in/rhys-byers-b54162261/"
                             className="rhys-credit"
                         >
@@ -55,6 +61,7 @@ const BeatDetector = () => {
                         href="
                         https://github.com/AarjavJain101/Beat-Detector"
                         target="_blank"
+                        rel="noreferrer"
                         className="beat-detector-image-links"
                     >
                         <div className="beat-detector-images">
