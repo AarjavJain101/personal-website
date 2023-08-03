@@ -29,9 +29,9 @@ const Hero = () => {
             </div>
             <div className="hero-text-container">
                 <h2 className="hero-title">Aarjav Jain</h2>
-                <p className="hero-subtitle hero-subtitle-1">First Year UBCV Student</p>
+                <p className="hero-subtitle hero-subtitle-1">UBCV Student</p>
                 <hr className="hero-line" />
-                <p className="hero-subtitle hero-subtitle-2">Aspiring Computer Engineering Student</p>
+                <p className="hero-subtitle hero-subtitle-2">Second Year Computer Engineering</p>
                 <button
                     type="button"
                     className="resume-button"
