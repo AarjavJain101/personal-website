@@ -83,6 +83,10 @@
     height: auto;
 }
 
+.about-me-learner-image {
+    padding-top: 12vh;
+}
+
 .about-me-profile-picture-image {
     max-width: 57.69%;
     max-height: 57.69%;

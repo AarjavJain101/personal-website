@@ -22,7 +22,7 @@
 
 .projects-divider-1 {
     position: absolute;
-    top: 60vh;
+    top: 80vh;
     width: 100vw;
     z-index: -3;
     transform: translateZ(-15px) scale(2.5);
@@ -40,7 +40,7 @@
 
 .projects-divider-2 {
     position: absolute;
-    top: 165vh;
+    top: 185vh;
     right: 3vw;
     width: 100vw;
     z-index: -3;
@@ -54,7 +54,7 @@
 
 .projects-divider-3 {
     position: absolute;
-    top: 263vh;
+    top: 280vh;
     width: 100vw;
     z-index: -3;
     right: 0.5vw;
@@ -76,7 +76,7 @@
         transform: translateZ(-15px) scale(7.5);
     }
     .projects-divider-2 {
-        top: 200vh;
+        top: 217vh;
         left: 160vw;
         transform: translateZ(-6.5px) scale(7);
     }
