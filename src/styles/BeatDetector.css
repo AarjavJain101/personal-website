@@ -144,17 +144,11 @@
         font-weight: 400;
         color: rgb(215, 206, 206);
     }
-    .beat-detector-image {
-        width: 150px;
-        height: auto;
-    }
     .image-caption-beat {
         font-size: 15px;
     }
     .beat-detector-images {
         display: flex;
         flex-direction: row;
-        align-items: center;
-        justify-content: center;
     }
 }
