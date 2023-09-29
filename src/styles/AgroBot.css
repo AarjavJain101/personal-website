@@ -15,6 +15,17 @@
     margin-top: 5vh;
 }
 
+.agrobot-title {
+    margin-top: 10vh;
+}
+
+.agrobot-title-2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    color: white;
+}
+
 .agrobot-logo {
     width: 20%;
     height: auto;
