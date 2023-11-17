@@ -48,11 +48,10 @@ const AboutMe = (props) => {
                         Hey! <strong>I am Aarjav Jain</strong>, a computer engineer studying at UBCV. Whether
                         its in my academics or personal life I enjoy tackling challenges I set for myself.
                         From creating personal projects in Python, C/C++, and React.js to working with my
-                        design team (UBC AgroBot) on our Convolutional Neural Network and other projects, I
-                        strive to expand my knowledge in the computer engineering world. Overall, I desire to
-                        use my critical thinking skills, resiliency, and innovative nature to push myself and
-                        others. So far in my programming journey,
-                        <strong> I have created projects with UBC AgroBot and on the Projects page!</strong>
+                        design team (UBC Solar) on embedded systems projects, I strive to expand my knowledge
+                        in the computer engineering world. Overall, I desire to use my critical thinking
+                        skills, resiliency, and innovative nature to push myself and others. View my projects
+                        so far on the Projects page!
                         <br />
                         <button
                             type="button"
@@ -65,9 +64,9 @@ const AboutMe = (props) => {
                         </button>
                     </p>
                     <p className="about-me-learner-text">
-                        If I am not studying then I enjoy learning languages, programming (currently React.js
-                        and other Web Development), or teaching myself future math and physics course content.
-                        In doing so I can continue learning and aim for academic excellence!
+                        If I am not studying then I enjoy learning languages, programming (currently FreeRTOS
+                        with UBC Solar), and working out. By pursuing my hobbies I continue to learn more
+                        about myself and about my career in computer engineering!
                     </p>
                 </div>
             </div>

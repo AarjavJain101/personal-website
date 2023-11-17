@@ -12,13 +12,20 @@ const AgroBot = () => {
                 <h1 className="agrobot-title">UBC Solar: Embedded Systems Engineer</h1>
                 <img src={SolarLogo} alt="Solar logo" className="agrobot-logo" draggable="false" />
                 <p className="agrobot-contouring-text">
-                    Currently, I am an embedded systems engineer at UBC Solar. My work centers around
-                    developing the firmware for our MCB, AMB, DID, and TEL boards. Additionally, I am becoming
-                    proficint in serial communication, C\C++, STM32 chips and STM32Cube IDE.
+                    As an Embedded Systems Engineer at UBC Solar since September 2023, I have developed the
+                    firmware for our MCB, AMB, DID, and TEL boards. Through my experience I gained proficiency
+                    in C/C++ and with using the STM32Cube IDE. In terms of RTOS, I learned and implemented
+                    various firmware using FreeRTOS for storing data in our SD card logger on our Solar Car.
+                    Also, I am to continuously expand my skill set by actively learning CAN bus communication
+                    protocols, the PCAN software, and using and writing DBC files. In addition to firmware, I
+                    created a Python script using the cantools library, to provide a flexible and robust
+                    method for rapid unit testing of our PCBs. Overall, my role as an Embedded Systems
+                    Engineer at UBC Solar enabled me to contribute to our solar car's embedded systems in our
+                    solar car and to learn C/C++, Python, STM32Cube IDE, FreeRTOS, and CAN communication.
                 </p>
             </div>
             <h1 className="agrobot-title">UBC AgroBot: Applied AI Developer</h1>
-            <h1 className="agrobot-title-2">January - May 2023</h1>
+            <h1 className="agrobot-title-2">January 2023 — May 2023</h1>
             <img src={AgroBotLogo} alt="Agro bot logo" className="agrobot-logo" draggable="false" />
             <p className="agrobot-contouring-text">
                 As a first year developer at UBC AgroBot I worked mainly in Python to create practical
