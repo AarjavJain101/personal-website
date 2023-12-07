@@ -4,6 +4,7 @@ import SolarLogo from "../images/solar.png";
 import AgroBotLogo from "../images/website.png";
 import ContouringImage from "../images/contouring_plants_website.png";
 import BoundingBoxImage from "../images/bounding_boxes.png";
+import SDLoggerImage from "../images/SDLogger.png";
 
 const AgroBot = () => {
     return (
@@ -23,6 +24,12 @@ const AgroBot = () => {
                     project I sharpened my C/C++ skills, familiarity with debugging in the STM32Cube IDE, and
                     connecting an SPI peripheral.
                 </p>
+                <img
+                    src={SDLoggerImage}
+                    alt="Nucleo board connected to SPI peripheral"
+                    className="sd-logger"
+                    draggable="false"
+                />
                 <p className="agrobot-contouring-text">
                     In terms of my testing project, I developed a Python script to check through a PCAN view
                     log and check for any errors in data or ID's passed. Additionally, my script implements
