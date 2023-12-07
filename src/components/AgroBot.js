@@ -12,16 +12,25 @@ const AgroBot = () => {
                 <h1 className="agrobot-title">UBC Solar: Embedded Systems Engineer</h1>
                 <img src={SolarLogo} alt="Solar logo" className="agrobot-logo" draggable="false" />
                 <p className="agrobot-contouring-text">
-                    As an Embedded Systems Engineer at UBC Solar since September 2023, I have developed the
-                    firmware for our MCB, AMB, DID, and TEL boards. Through my experience I gained proficiency
-                    in C/C++ and with using the STM32Cube IDE. In terms of RTOS, I learned and implemented
-                    various firmware using FreeRTOS for storing data in our SD card logger on our Solar Car.
-                    Also, I am to continuously expand my skill set by actively learning CAN bus communication
-                    protocols, the PCAN software, and using and writing DBC files. In addition to firmware, I
-                    created a Python script using the cantools library, to provide a flexible and robust
-                    method for rapid unit testing of our PCBs. Overall, my role as an Embedded Systems
-                    Engineer at UBC Solar enabled me to contribute to our solar car's embedded systems in our
-                    solar car and to learn C/C++, Python, STM32Cube IDE, FreeRTOS, and CAN communication.
+                    As an Embedded Systems Engineer at UBC Solar since September 2023, At UBC Solar, I have
+                    worked on both firmware and testing related projects. In particular, I wrote a library to
+                    create an abstraction for logging messages on an SD Card. Using C/C++, the STM32Cube IDE,
+                    and a Nucleo board, I developed protocols to open, append to, and close files on the SD
+                    Card with a FATFS file system. providing essential functions for opening, appending, and
+                    closing files on a FATFS file system on an SD card. My library allowed my embedded team
+                    and the vehicle dynamics team to have an easy-to-use abstraction at their hands without
+                    having to worry about nuances in appending to files on the SD Card. Overall, in the
+                    project I sharpened my C/C++ skills, familiarity with debugging in the STM32Cube IDE, and
+                    connecting an SPI peripheral.
+                </p>
+                <p className="agrobot-contouring-text">
+                    In terms of my testing project, I developed a Python script to check through a PCAN view
+                    log and check for any errors in data or ID's passed. Additionally, my script implements
+                    jitter analysis by checking the CAN bus load as a result of the sent messages. This script
+                    allowed us to quickly test the received messages from our boards to rapidly develop them
+                    as well as provide a flexible test suite. Overall, through this project I learned the
+                    standard frame of a CAN message, how interference occurs on the CAN bus, using DBC files,
+                    and using the cantools library.
                 </p>
             </div>
             <h1 className="agrobot-title">UBC AgroBot: Applied AI Developer</h1>
