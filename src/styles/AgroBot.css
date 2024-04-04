@@ -98,8 +98,9 @@
 }
 
 .debug-image {
-    max-width: 75%;
+    max-width: 70%;
     height: auto;
+    padding-right: 6px;
 }
 
 .gif-image {
@@ -109,7 +110,7 @@
 }
 
 .paper-link {
-    color: blue; 
-    font-weight: bold; 
-    text-decoration: none; 
+    color: blue;
+    font-weight: bold;
+    text-decoration: none;
 }
