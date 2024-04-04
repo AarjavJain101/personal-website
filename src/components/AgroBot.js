@@ -113,7 +113,6 @@ const AgroBot = () => {
                 className="bounding-boxes-image"
                 draggable="false"
             />
-            <hr className="experiences-line" />
         </div>
     );
 };
