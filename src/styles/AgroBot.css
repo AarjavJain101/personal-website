@@ -85,3 +85,17 @@
         width: 85%;
     }
 }
+
+.image-container {
+    display: flex;
+    align-items: center;
+}
+
+.gif-image, .debug-image {
+    max-width: 50%; 
+    height: auto;
+}
+
+.gif-image {
+    order: -1; /* Move the GIF to the left */
+}

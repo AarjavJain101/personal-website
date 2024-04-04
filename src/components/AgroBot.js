@@ -5,6 +5,9 @@ import AgroBotLogo from "../images/website.png";
 import ContouringImage from "../images/contouring_plants_website.png";
 import BoundingBoxImage from "../images/bounding_boxes.png";
 import SDLoggerImage from "../images/SDLogger.png";
+import SunlinkGIF from "../images/sunlink.gif";
+import ExampleCANLoad from "../images/example_can_load.png";
+import ExampleDebug from "../images/example_debug.png";
 
 const AgroBot = () => {
     return (
@@ -14,15 +17,43 @@ const AgroBot = () => {
                 <img src={SolarLogo} alt="Solar logo" className="agrobot-logo" draggable="false" />
                 <p className="agrobot-contouring-text">
                     As an Embedded Systems Engineer at UBC Solar since September 2023, At UBC Solar, I have
-                    worked on both firmware and testing related projects. In particular, I wrote a library to
-                    create an abstraction for logging messages on an SD Card. Using C/C++, the STM32Cube IDE,
-                    and a Nucleo board, I developed protocols to open, append to, and close files on the SD
-                    Card with a FATFS file system. providing essential functions for opening, appending, and
-                    closing files on a FATFS file system on an SD card. My library allowed my embedded team
-                    and the vehicle dynamics team to have an easy-to-use abstraction at their hands without
-                    having to worry about nuances in appending to files on the SD Card. Overall, in the
-                    project I sharpened my C/C++ skills, familiarity with debugging in the STM32Cube IDE, and
-                    connecting an SPI peripheral.
+                    worked on system design, firmware, and automated testing projects.
+                </p>
+                <p className="agrobot-contouring-text">
+                    My recent work was dedicated to designing sunlink, a robust system for collecting,
+                    parsing, and storing data from our various peripherals such as CAN, GPS, and the IMU. This
+                    involved parsing any type of message received either from our XBee radio module, random
+                    message generator, or CAN bus. Furthermore, we chose to store our data on InfluxDB and
+                    stream it to Grafana so we can quickly analyze and visualize our measurements as they
+                    happen. I also added numerous features such as the ability to specify what data to live
+                    stream, randomization of all message types (testing tool), and a custom error message
+                    generator for efficient testing. To bring this all together, we sent CAN messages from our
+                    Solar car’s battery using a PCAN to a local instance of sunlink (during races we run
+                    sunlink on Digital Ocean to have a standard for where our system will run). The result is
+                    the video on the right displaying the data on one of our Grafana dashboards and a flurry
+                    of pretty printed tables.
+                </p>
+                <div class="image-container">
+                    <img
+                        src={SunlinkGIF}
+                        alt="Gif of sunlink in action"
+                        class="gif-image"
+                        draggable="false"
+                    />
+                    <img
+                        src={ExampleDebug}
+                        alt="Example debug message from custom exception generator"
+                        class="debug-image"
+                        draggable="false"
+                    />
+                </div>
+                <p className="agrobot-contouring-text">
+                    In terms of FW I wrote a library for logging messages on an SD Card, which we used in our
+                    FreeRTOS CAN, GPS, and IMU message transmission tasks. Using C/C++, the STM32Cube IDE, and
+                    a Nucleo board, I developed protocols to open, append to, and close files on the SD Card
+                    with a FATFS file system. My library allowed my embedded team and the VDX team to easily
+                    interact with our SD card without worrying about FATFS system nuances and familiarized me
+                    with debugging in STM32Cube IDE and connecting an SPI peripheral.
                 </p>
                 <img
                     src={SDLoggerImage}
@@ -31,14 +62,21 @@ const AgroBot = () => {
                     draggable="false"
                 />
                 <p className="agrobot-contouring-text">
-                    In terms of my testing project, I developed a Python script to check through a PCAN view
-                    log and check for any errors in data or ID's passed. Additionally, my script implements
-                    jitter analysis by checking the CAN bus load as a result of the sent messages. This script
-                    allowed us to quickly test the received messages from our boards to rapidly develop them
-                    as well as provide a flexible test suite. Overall, through this project I learned the
-                    standard frame of a CAN message, how interference occurs on the CAN bus, using DBC files,
-                    and using the cantools library.
+                    Aside from various testing features I implemented on Sunlink, I also wrote an automated
+                    PCAN log verifier. Its purpose is to not only validate the data in each of the messages in
+                    the log but als to calculate the CAN bus load at different points in time and report any
+                    potential bus overload issues. This is crucial for deciding if we can add more CAN
+                    messages without maxing out the bitrate of the bus. Furthermore, the test script performed
+                    jitter analysis on the log by determining the extent of message delays due to the physical
+                    length of the bus and the rules for CAN messages winning arbitration to then be queued on
+                    the CAN bus [paper](https://mdh.diva-portal.org/smash/get/diva2:1735813/FULLTEXT01.pdf).
                 </p>
+                <img
+                    src={ExampleCANLoad}
+                    alt="Example CAN bus load calculation"
+                    className="sd-logger"
+                    draggable="false"
+                />
             </div>
             <h1 className="agrobot-title">UBC AgroBot: Applied AI Developer</h1>
             <h1 className="agrobot-title-2">January 2023 — May 2023</h1>
