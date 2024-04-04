@@ -69,12 +69,21 @@ const AgroBot = () => {
                     messages without maxing out the bitrate of the bus. Furthermore, the test script performed
                     jitter analysis on the log by determining the extent of message delays due to the physical
                     length of the bus and the rules for CAN messages winning arbitration to then be queued on
-                    the CAN bus [paper](https://mdh.diva-portal.org/smash/get/diva2:1735813/FULLTEXT01.pdf).
+                    the CAN bus{" "}
+                    <a
+                        href="https://mdh.diva-portal.org/smash/get/diva2:1735813/FULLTEXT01.pdf"
+                        class="paper-link"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        (paper)
+                    </a>
+                    .
                 </p>
                 <img
                     src={ExampleCANLoad}
                     alt="Example CAN bus load calculation"
-                    className="sd-logger"
+                    className="can-load-image"
                     draggable="false"
                 />
             </div>

@@ -26,11 +26,16 @@
     color: white;
 }
 
+.can-load-image,
 .sd-logger {
     width: 40%;
     height: auto;
     margin-top: 1vh;
     margin-bottom: 3vh;
+}
+
+.can-load-image {
+    width: 60%;
 }
 
 .agrobot-logo {
@@ -89,13 +94,22 @@
 .image-container {
     display: flex;
     align-items: center;
+    padding-bottom: 30px;
 }
 
-.gif-image, .debug-image {
-    max-width: 50%; 
+.debug-image {
+    max-width: 50%;
     height: auto;
 }
 
 .gif-image {
-    order: -1; /* Move the GIF to the left */
+    max-width: 20%;
+    padding-left: 30px;
+    height: auto;
+}
+
+.paper-link {
+    color: blue; 
+    font-weight: bold; 
+    text-decoration: none; 
 }
