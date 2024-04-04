@@ -70,3 +70,11 @@
     background-color: #4c64e9;
     color: white;
 }
+
+@media only screen and (max-width: 600px) {
+    .linked-in-btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+}
