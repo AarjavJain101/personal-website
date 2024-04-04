@@ -35,15 +35,15 @@ const AgroBot = () => {
                 </p>
                 <div class="image-container">
                     <img
-                        src={SunlinkGIF}
-                        alt="Gif of sunlink in action"
-                        class="gif-image"
-                        draggable="false"
-                    />
-                    <img
                         src={ExampleDebug}
                         alt="Example debug message from custom exception generator"
                         class="debug-image"
+                        draggable="false"
+                    />
+                    <img
+                        src={SunlinkGIF}
+                        alt="Gif of sunlink in action"
+                        class="gif-image"
                         draggable="false"
                     />
                 </div>
