@@ -8,28 +8,68 @@ import SDLoggerImage from "../images/SDLogger.png";
 import SunlinkGIF from "../images/sunlink.gif";
 import ExampleCANLoad from "../images/example_can_load.png";
 import ExampleDebug from "../images/example_debug.png";
+import HappyAarjav from "../images/happy_aarjav.png";
+import GrafanaGoodData from "../images/grafana_good_data.png";
+import SolarCar from "../images/solar_car.png";
 
 const AgroBot = () => {
     return (
         <div className="agrobot">
             <div className="solar">
-                <h1 className="agrobot-title">UBC Solar: Embedded Systems Engineer</h1>
+                <h1 className="agrobot-title">UBC Solar</h1>
                 <img src={SolarLogo} alt="Solar logo" className="agrobot-logo" draggable="false" />
+                <h2 className="agrobot-title-2">Embedded Systems Tead Lead (June 2024 - Present)</h2>
                 <p className="agrobot-contouring-text">
-                    As an Embedded Systems Engineer at UBC Solar since September 2023, At UBC Solar, I have
-                    worked on system design, firmware, and automated testing projects.
+                    As the Embedded Systems Team Lead I organize, manage, and oversee our team projects such integrating the
+                    Xbee Radio API Diagnoistics Mode. Also, to maintain a readable and scalable code-base as well as improve our member's embedded skills, I 
+                    review and approve all PR's to reduce production bugs in our firmware and to provide feedback on bettering our system. 
+                    Some projects we plan on completeing this year are refactoring and optimizing Sunlink to use Rust, migrating from Grafana to a real-time (1ms refresh)
+                    data visualization tool, improving our hardware to use multicore ARM Cortex processors, 
+                    potentially switching our communications from CAN to EtherCan, migrating from monday.com to Jira (for its advanced search and management features),
+                    and many more.
                 </p>
+                <img
+                        src={SolarCar}
+                        alt="Solar Car in the Sun"
+                        class="happy-aarjav-image"
+                        draggable="false"
+                />
+                <h2 className="agrobot-title-2">Embedded Systems Engineer (September 2023 - June 2024)</h2>
                 <p className="agrobot-contouring-text">
-                    My recent work was dedicated to designing sunlink, a robust system for collecting,
+                    As an Embedded Systems Engineer at UBC Solar I have
+                    worked on desiging our telemetry system both on our Python backend and our firmware side, 
+                    integrating a high time resolution data logger (Kvaser Memorator Pro 2xHs v2), 
+                    various other Embedded C and Python related projects. 
+                    Below is a picture of me calibrating our Main Control Board's ADC reading from the pedal to determine a natural acceleration curve 
+                    for our drivers: 
+                </p>
+                <img
+                        src={HappyAarjav}
+                        alt="Picture of Aarjav working on pedal on Solar Car"
+                        class="happy-aarjav-image"
+                        draggable="false"
+                />
+                <p className="agrobot-contouring-text">
+                    My recent work was dedicated to designing and improving our telemetry system. This includes sunlink, a robust system for collecting,
                     parsing, and storing data from our various peripherals such as CAN, GPS, and the IMU. This
                     involved parsing any type of message received either from our XBee radio module, random
                     message generator, or CAN bus. Furthermore, we chose to store our data on InfluxDB and
-                    stream it to Grafana so we can quickly analyze and visualize our measurements as they
-                    happen. I also added numerous features such as the ability to specify what data to live
-                    stream, randomization of all message types (testing tool), and a custom error message
-                    generator for efficient testing. To bring this all together, we sent CAN messages from our
-                    Solar car’s battery using a PCAN to a local instance of sunlink (during races we run
-                    sunlink on Digital Ocean to have a standard for where our system will run). The result is
+                    stream it to Grafana so we can quickly analyze and visualize our measurements as we are driving. 
+                    Below is a small example of our Pack Current reaching negative values which indicates Regen Braking! 
+                </p>
+                <img
+                        src={GrafanaGoodData}
+                        alt="Good data we got on Grafana when racing"
+                        class="happy-aarjav-image"
+                        draggable="false"
+                />
+                    
+                <p className="agrobot-contouring-text">
+                    I also added numerous features such as the ability to specify what data to live
+                    stream, randomization of all message types (testing tool), a custom error message
+                    generator for efficient testing, and many others. To bring this all together, we sent CAN messages from our
+                    Solar car’s battery using a PCAN to a local instance of sunlink (during production we run
+                    sunlink on a main server in our Vancouver workspace to have a standard for where our system will run). The result is
                     the video on the right displaying the data on one of our Grafana dashboards and a flurry
                     of pretty printed tables.
                 </p>

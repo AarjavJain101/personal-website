@@ -47,9 +47,9 @@ const AboutMe = (props) => {
                     <p className="about-me-profile-picture-text">
                         Hey! <strong>I am Aarjav Jain</strong>, a computer engineer studying at UBCV. Whether
                         its in my academics or personal life I enjoy tackling challenges I set for myself.
-                        From creating personal projects in Python, C/C++, and React.js to working with my
+                        From creating personal projects in C/C++ and Python to working with my
                         design team (UBC Solar) on embedded systems projects, I strive to expand my knowledge
-                        in the computer engineering world. Overall, I desire to use my critical thinking
+                        in the embedded engineering world. Overall, I desire to use my critical thinking
                         skills, resiliency, and innovative nature to push myself and others. View my projects
                         so far on the Projects page!
                         <br />
@@ -64,9 +64,8 @@ const AboutMe = (props) => {
                         </button>
                     </p>
                     <p className="about-me-learner-text">
-                        If I am not studying then I enjoy learning languages, programming (currently FreeRTOS
-                        with UBC Solar), and working out. By pursuing my hobbies I continue to learn more
-                        about myself and about my career in computer engineering!
+                        If I am not studying then I enjoy working on telemetry and embedded systems, learning languages, and working out. By pursuing my hobbies I continue to learn more
+                        about myself and about my future aspirations!
                     </p>
                 </div>
             </div>

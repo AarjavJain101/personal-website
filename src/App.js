@@ -8,6 +8,7 @@ import Hero from "./components/Hero";
 import AboutMe from "./components/AboutMe";
 import Experiences from "./components/Experiences";
 import Projects from "./components/Projects";
+import React from "react";
 
 function App() {
     const [showPageOption, setShowPageOptions] = useState(false);

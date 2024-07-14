@@ -103,6 +103,12 @@
     padding-right: 6px;
 }
 
+.happy-aarjav-image {
+    max-width: 80%;
+    height: auto;
+    padding-bottom: 3%;
+}
+
 .gif-image {
     max-width: 33%;
     padding-left: 30px;
