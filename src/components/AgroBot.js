@@ -20,10 +20,10 @@ const AgroBot = () => {
                 <img src={SolarLogo} alt="Solar logo" className="agrobot-logo" draggable="false" />
                 <h2 className="agrobot-title-2">Embedded Systems Tead Lead (June 2024 - Present)</h2>
                 <p className="agrobot-contouring-text">
-                    As the Embedded Systems Team Lead I organize, manage, and oversee our team projects such integrating the
-                    Xbee Radio API Diagnoistics Mode. Also, to maintain a readable and scalable code-base as well as improve our member's embedded skills, I 
+                    As the Embedded Systems Team Lead I organize, manage, and oversee our firmware and Python backend (named sunlink) projects. 
+                    I also strive to maintain a readable and scalable code-base, and improve our member's embedded skills. Moreover, I 
                     review and approve all PR's to reduce production bugs in our firmware and to provide feedback on bettering our system. 
-                    Some projects we plan on completeing this year are refactoring and optimizing Sunlink to use Rust, migrating from Grafana to a real-time (1ms refresh)
+                    Some projects we plan on completing this year are refactoring and optimizing Sunlink to use Rust, migrating from Grafana to a real-time (1ms refresh)
                     data visualization tool, improving our hardware to use multicore ARM Cortex processors, 
                     potentially switching our communications from CAN to EtherCan, migrating from monday.com to Jira (for its advanced search and management features),
                     and many more.
