@@ -54,7 +54,8 @@ const BeatDetector = () => {
                         <strong>Adafruit I2S MEMS microphone (SPH0645LM4H)</strong>. Also using <strong>DMA</strong> to offload the CPU. 
                         A <strong>UART</strong> peripheral was used with an <strong>Adafruit UART to USB A converter</strong> into my computer for Python's 
                         visualization and data analysus.
-
+                        <br />
+                        <br />
                         <strong>Please click on the GIFs to see the STM32 Project's GitHub.</strong>
 
                     </p>
@@ -75,11 +76,11 @@ const BeatDetector = () => {
                                     className="python-gif"
                                     draggable="false"
                                 />
-                                <div className="image-caption-beat">
+                                {/* <div className="image-caption-beat">
                                     <span className="description">
                                         Python Beat Detector with Synced Lyrics
                                     </span>
-                                </div>
+                                </div> */}
                             </div>
                             <div className="image-container">
                                 <img
@@ -88,12 +89,11 @@ const BeatDetector = () => {
                                     className="c-gif"
                                     draggable="false"
                                 />
-                                <div className="image-caption-beat">
+                                {/* <div className="image-caption-beat">
                                     <span className="description">Embedded Beat Detector with WS2812B LEDs</span>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
-                        <h4 className="beat-detector-caption">(Click on GIFs)</h4>
                     </a>
                 </div>
             </div>
