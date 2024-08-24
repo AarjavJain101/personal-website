@@ -20,13 +20,14 @@ const AgroBot = () => {
                 <img src={SolarLogo} alt="Solar logo" className="agrobot-logo" draggable="false" />
                 <h2 className="agrobot-title-2">Embedded Systems Tead Lead (June 2024 - Present)</h2>
                 <p className="agrobot-contouring-text">
-                    As the Embedded Systems Team Lead I organize, manage, and oversee our firmware and Python backend (named sunlink) projects. 
-                    I also strive to maintain a readable and scalable code-base, and improve our member's embedded skills. Moreover, I 
-                    review and approve all PR's to reduce production bugs in our firmware and to provide feedback on bettering our system. 
-                    Some projects we plan on completing this year are refactoring and optimizing Sunlink to use Rust, migrating from Grafana to a real-time (1ms refresh)
-                    data visualization tool, improving our hardware to use multicore ARM Cortex processors, 
-                    potentially switching our communications from CAN to EtherCan, migrating from monday.com to Jira (for its advanced search and management features),
-                    and many more.
+                    I drive our 6-member team from start to finish on key projects, surpassing our planned goals for the year! 
+                    With a proactive mindset, I strategize the future of EMBD by collaborating with Solar’s executives, planning recruitment, 
+                    resource management, and member onboarding. I consult with other teams like Strategy to translate their requirements 
+                    into actionable EMBD projects such as getting GPS module and its data. I am also focused on simplifying our systems, 
+                    like the driver dashboard and motor control, by working closely with electrical sub-teams to eliminate unnecessary complexities 
+                    both in our code's logic as well as the number of components. I also consistently perform design reviews on all projects to 
+                    ensure a well-defined outcome as well as motivate all members to document any decisions and progress using monday.com. 
+                    Furthermore, I meticulously review and approve GitHub PRs, ensuring smooth and successful firmware and Sunlink (read below!) releases.
                 </p>
                 <img
                         src={SolarCar}
