@@ -22,17 +22,14 @@ const BeatDetector = () => {
                 <div className="beat-detector-text">
                     <p className="beat-detector-text-paragraph">
                         Beat detection algorithm to detect bass, claps, and hi-hats in hip-hop/rap music. 
-                        First I developed a Python version to prototype with algorithms and also to add <strong>synched lyrics</strong>.
-                        The <strong>Python</strong> implementation utilizes <strong>PyAudio</strong>,{" "}
-                        <strong>Matplotlib for live debugging and testing</strong>, and <strong>Numpy</strong> to
-                        compute the detection. Additionally, the <strong>TKinter</strong> module,{" "}
-                        <strong>Spotify API</strong>, and <strong>synched lyrics API</strong> was used to
-                        create the Lyrics-Light-Room experience. The data visualization program
-                        utilizes <strong>FFmpeg</strong> to create a video of all the frames of data collected when running tests.
+                        First developed in Python to prototype algorithms and for  <strong>synched lyrics</strong>.
+                        Utilizes <strong>PyAudio</strong>,{" "}
+                        <strong>Matplotlib</strong> for live testing, <strong>Numpy</strong>, <strong>TKinter</strong> for GUI.{" "}
+                        <strong>Spotify</strong>, and <strong>synched lyrics</strong> API for the 'Lyrics-Light-Room' experience.
                         <br />
                         <br />
-                        I then created a C\C++ distributable version that gives me more freedom on the GUI end to add a
-                        <strong>fade effect and other creative potential.</strong> The <strong>C/C++</strong> implementation utilizes libraries such as{" "}
+                        A 5MB C\C++ distributable version was to unlock creative potential on the GUI end for
+                        <strong>fade effects.</strong> The <strong>C/C++</strong> implementation utilizes libraries such as{" "}
                         <strong>portaudio.h</strong>, <strong>fftw3.h</strong>, <strong>windows.h</strong>,
                         and other standard libraries to create a GUI for the light room experience. Credit to{" "}
                         <a
@@ -53,14 +50,10 @@ const BeatDetector = () => {
                         <br />
                         <br />
                         Finally, I used an <strong>STM32F407G-DISC1</strong> to flash a <strong>WS2812B LED strip</strong>. 
-                        To do this, I created an LED abstraction layer to handle the <strong>PWM</strong> signal needed to interface with the strip. 
-                        Additionally, I used an <strong>Adafruit I2S MEMS microphone (SPH0645LM4H)</strong> to get the audio data 
-                        and used a <strong>DMA</strong> to offload the CPU from always doing memory operations to read in audio data. 
-                        Now the <strong>M5 core</strong> has more clock cycles to perform my beat detection algorithm on every 2048 audio sample chunk, 
-                        notably using <strong>ARM math libraries</strong> to perform the FFT.
-                        Finally, to further improve the algorithm and to visualize the debugging process, 
-                        I configured a <strong>UART</strong> peripheral which goes through an <strong>Adafruit UART to USB converter</strong> into my computer. 
-                        From here, I use Python's <strong>Pyserial</strong>, <strong>Matplotlib</strong>, and <strong>Numpy</strong> libraries to perform data analysis. 
+                        To do this, I controlled the LEDs with a <strong>PWM</strong> signal, read audio data with an 
+                        <strong>Adafruit I2S MEMS microphone (SPH0645LM4H)</strong>. Also using <strong>DMA</strong> to offload the CPU. 
+                        A <strong>UART</strong> peripheral was used with an <strong>Adafruit UART to USB A converter</strong> into my computer for Python's 
+                        visualization and data analysus.
 
                         <strong>Please click on the GIFs to see the STM32 Project's GitHub.</strong>
 
