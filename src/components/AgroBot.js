@@ -20,14 +20,17 @@ const AgroBot = () => {
                 <img src={SolarLogo} alt="Solar logo" className="agrobot-logo" draggable="false" />
                 <h2 className="agrobot-title-2">Embedded Systems Tead Lead (June 2024 - Present)</h2>
                 <p className="agrobot-contouring-text">
-                    I drive our 6-member team from start to finish on key projects, surpassing our planned goals for the year! 
+                    I drive our team from start to finish on key projects, surpassing our planned goals for the year! 
                     With a proactive mindset, I strategize the future of EMBD by collaborating with Solar’s executives, planning recruitment, 
-                    resource management, and member onboarding. I consult with other teams like Strategy to translate their requirements 
-                    into actionable EMBD projects such as getting GPS module and its data. I am also focused on simplifying our systems, 
+                    resource management, member growth, and electrical integration. I consult with other teams like Strategy to translate their requirements 
+                    into actionable EMBD projects such as getting a GPS module and its data. I am also focused on simplifying our systems, 
                     like the driver dashboard and motor control, by working closely with electrical sub-teams to eliminate unnecessary complexities 
-                    both in our code's logic as well as the number of components. I also consistently perform design reviews on all projects to 
+                    both in our code's logic as well as the number of components. Another important focus of mine is tesitng and especially automating
+                    and simplyfing it through our standardized testing methodology. I also consistently perform design reviews on all projects to 
                     ensure a well-defined outcome as well as motivate all members to document any decisions and progress using monday.com. 
-                    Furthermore, I meticulously review and approve GitHub PRs, ensuring smooth and successful firmware and Sunlink (read below!) releases.
+                    Furthermore, I meticulously review and approve GitHub PRs, ensuring smooth and successful firmware and Sunlink (read below!) releases. 
+                    I love being a lead because I get more oppurtunity to wholistically consider our car which provides my team and I the insights needed 
+                    to work ahead, continuously improve our systems, and marvel at the work we have done! 
                 </p>
                 <img
                         src={SolarCar}
@@ -51,7 +54,7 @@ const AgroBot = () => {
                         draggable="false"
                 />
                 <p className="agrobot-contouring-text">
-                    My recent work was dedicated to designing and improving our telemetry system. This includes sunlink, a robust system for collecting,
+                    My work last Summer was dedicated to designing and improving our telemetry system. This includes sunlink, a robust system for collecting,
                     parsing, and storing data from our various peripherals such as CAN, GPS, and the IMU. This
                     involved parsing any type of message received either from our XBee radio module, random
                     message generator, or CAN bus. Furthermore, we chose to store our data on InfluxDB and
