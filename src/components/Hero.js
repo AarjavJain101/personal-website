@@ -31,7 +31,7 @@ const Hero = () => {
                 <h2 className="hero-title">Aarjav Jain</h2>
                 <p className="hero-subtitle hero-subtitle-1">UBCV Student</p>
                 <hr className="hero-line" />
-                <p className="hero-subtitle hero-subtitle-2">Second Year Computer Engineering</p>
+                <p className="hero-subtitle hero-subtitle-2">4th Year Computer Engineering</p>
                 <button
                     type="button"
                     className="resume-button"
