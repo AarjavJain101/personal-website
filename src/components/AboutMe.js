@@ -65,8 +65,8 @@ const AboutMe = (props) => {
                     <p className="about-me-learner-text">
                         I see the time until 2027's competition as a rare, self-directed challenge. 
                         A chance to forge my own path and push my limits. As such I
-                        treat UBC Solar <strong>like a startup</strong>.
-                        So, my priority is to <strong>learn how to build a high-performing team that will go to World Solar Challenge one day.</strong>
+                        treat UBC Solar like a startup.
+                        So, my priority is to learn how to build a  <strong>high-performing team that will go to World Solar Challenge one day.</strong>
                     </p>
                 </div>
             </div>

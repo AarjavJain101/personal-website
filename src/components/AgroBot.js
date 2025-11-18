@@ -21,16 +21,24 @@ const AgroBot = () => {
         <div className="agrobot">
             <div className="solar">
                 <h1 className="agrobot-title">UBC Solar</h1>
+
+                <div>
                 <img src={SolarLogo} alt="Solar logo" className="agrobot-logo" draggable="false" />
-                <img src={FullTeam} alt="UBC Solar Team" className="happy-aarjav-image" style={{ width: "120%", height: "auto" }} draggable="false" />
+                </div>
 
-                <h2 className="agrobot-title-2"><strong>Electrical Director</strong> (June 2025 – Present)</h2>
+                <div>
+                <img src={FullTeam} alt="UBC Solar Team" className="happy-aarjav-image" style={{ width: "100%", height: "auto" }} draggable="false" />
+                </div>
 
+                <h2 className="agrobot-title-2"><strong>Electrical Director(June 2025 – Present)</strong> </h2>
+                <div>
+                <img src={CompPic} alt="Aarjav at competition" className="happy-aarjav-image" style={{ width: "40%", height: "auto" }} draggable="false" />
+                </div>
                 <p className="agrobot-contouring-text">
                     As <strong>Electrical Director</strong>, I lead our BMS, Power & Signals,
                     Embedded Systems, and Race Strategy subteams with the goal of delivering a
-                    <strong>reliable, low-power, lightweight electrical system</strong> capable of <strong>real-time telemetry</strong> and
-                    <strong>data-driven performance</strong> at 
+                    <strong>reliable, low-power, lightweight electrical system</strong> capable of <strong>real-time telemetry</strong> and 
+                     <strong> data-driven performance</strong> at 
                     <a href="https://www.americansolarchallenge.org/" target="_blank" rel="noopener noreferrer">
                         <em>FSGP</em> and <em>ASC</em>
                     </a>.
@@ -41,25 +49,20 @@ const AgroBot = () => {
                     </a>.
                 </p>
 
-                <img src={Yeti} alt="Portrait of Aarjav" className="happy-aarjav-image" style={{ width: "50%", height: "auto" }} draggable="false" />
+                <img src={Yeti} alt="Portrait of Aarjav" className="happy-aarjav-image" style={{ width: "40%", height: "auto" }} draggable="false" />
 
                 <p className="agrobot-contouring-text">
                     I also focus heavily on <strong>industry outreach</strong>, securing sponsorships and technical collaborations
                     with companies such as <strong>Moment Energy</strong>, <strong>Intel</strong>, and <strong>NETGEAR</strong>.
                     These partnerships strengthen our engineering career pipeline while elevating <strong>UBC Solar</strong>'s visibility
-                    within industry.
-                </p>
-
-                <img src={CompPic} alt="Aarjav at competition" className="happy-aarjav-image" style={{ width: "50%", height: "auto" }} draggable="false" />
-
-                <p className="agrobot-contouring-text">
-                    Most importantly, the executive team and I work to <strong>motivate and align a 75-member electrical organization</strong> by fostering
+                    within industry. 
+                    Additionally, the executive team and I work to <strong>motivate and align a 75-member electrical organization</strong> by fostering
                     proactive communication, clear expectations, and strong team culture. Leading such a large interdisciplinary 
                     team has pushed me to grow beyond technical work and into building the systems, processes, and momentum 
                     that carry us into future competitions and car revisions with confidence.
                 </p>
 
-                <h2 className="agrobot-title-2">Embedded Systems Tead Lead (June 2024 - Present)</h2>
+                <h2 className="agrobot-title-2"><strong>Embedded Systems Team Lead (June 2024 - Present)</strong></h2>
                 <p className="agrobot-contouring-text">
                     I drive our team from start to finish on key projects, surpassing our planned goals for the year! 
                     With a proactive mindset, I strategize the future of EMBD by collaborating with Solar’s executives, planning recruitment, 
@@ -79,7 +82,7 @@ const AgroBot = () => {
                         className="happy-aarjav-image"
                         draggable="false"
                 />
-                <h2 className="agrobot-title-2">Embedded Systems Engineer (September 2023 - June 2024)</h2>
+                <h2 className="agrobot-title-2"><strong> Embedded Systems Engineer (September 2023 - June 2024)</strong> </h2>
                 <p className="agrobot-contouring-text">
                     As an Embedded Systems Engineer at UBC Solar I have
                     worked on desiging our telemetry system both on our Python backend and our firmware side, 
