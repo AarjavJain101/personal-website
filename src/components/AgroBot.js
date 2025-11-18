@@ -11,6 +11,10 @@ import ExampleDebug from "../images/example_debug.png";
 import HappyAarjav from "../images/happy_aarjav.png";
 import GrafanaGoodData from "../images/grafana_good_data.png";
 import SolarCar from "../images/solar_car.png";
+import Yeti from "../images/yeti.jpg";
+import CompPic from "../images/comp.jpg";
+import FullTeam from "../images/full_team.JPG";
+
 
 const AgroBot = () => {
     return (
@@ -18,6 +22,48 @@ const AgroBot = () => {
             <div className="solar">
                 <h1 className="agrobot-title">UBC Solar</h1>
                 <img src={SolarLogo} alt="Solar logo" className="agrobot-logo" draggable="false" />
+                <h2 className="agrobot-title-2"><strong>Electrical Director</strong> (June 2025 – Present)</h2>
+                <p className="agrobot-contouring-text">
+                    As <strong>Electrical Director</strong>, I lead our BMS, Power & Signals, 
+                    Embedded Systems, and Race Strategy subteams with the goal of delivering a 
+                    <strong>reliable, low-power, lightweight electrical system</strong> capable of <strong>real-time telemetry</strong> and 
+                    <strong>data-driven performance</strong> at <em>FSGP</em> and <em>ASC</em>. My role involves coordinating 
+                    cross-team design decisions, driving <strong>first-principles design reviews</strong>, and ensuring our 
+                    electrical architecture stays compliant with <em>American Solar Challenge regulations</em>.
+                </p>
+                <img
+                    src={Yeti}
+                    alt="Portrait of Aarjav"
+                    className="happy-aarjav-image"
+                    draggable="false"
+                />
+
+                <p className="agrobot-contouring-text">
+                    I also focus heavily on <strong>industry outreach</strong>, securing sponsorships and technical 
+                    collaborations with companies such as <strong>Moment Energy</strong>, <strong>Intel</strong>, and 
+                    <strong>NETGEAR</strong>. These partnerships strengthen our engineering pipeline while elevating 
+                    <strong>UBC Solar’s</strong> visibility within industry.
+                </p>
+                <img
+                    src={CompPic}
+                    alt="Aarjav at competition"
+                    className="happy-aarjav-image"
+                    draggable="false"
+                />
+
+                <p className="agrobot-contouring-text">
+                    Most importantly, I work to <strong>motivate and align a 75-member electrical organization</strong> by 
+                    promoting proactive communication, cultural consistency, and sustained momentum. Leading such a large, 
+                    interdisciplinary team has pushed me to grow beyond technical work and into building strong systems, 
+                    culture, and execution frameworks that carry us into competition with confidence.
+                </p>
+                <img
+                    src={FullTeam}
+                    alt="UBC Solar Electrical Team"
+                    className="happy-aarjav-image"
+                    draggable="false"
+                />
+
                 <h2 className="agrobot-title-2">Embedded Systems Tead Lead (June 2024 - Present)</h2>
                 <p className="agrobot-contouring-text">
                     I drive our team from start to finish on key projects, surpassing our planned goals for the year! 
@@ -67,7 +113,6 @@ const AgroBot = () => {
                         class="happy-aarjav-image"
                         draggable="false"
                 />
-                    
                 <p className="agrobot-contouring-text">
                     I also added numerous features such as the ability to specify what data to live
                     stream, randomization of all message types (testing tool), a custom error message
