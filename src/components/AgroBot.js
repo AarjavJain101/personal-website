@@ -22,13 +22,14 @@ const AgroBot = () => {
             <div className="solar">
                 <h1 className="agrobot-title">UBC Solar</h1>
                 <img src={SolarLogo} alt="Solar logo" className="agrobot-logo" draggable="false" />
+                <img src={FullTeam} alt="UBC Solar Team" class="happy-aarjav-image" style="width:120%; height:auto;" draggable="false" />
 
                 <h2 class="agrobot-title-2"><strong>Electrical Director</strong> (June 2025 – Present)</h2>
 
                 <p class="agrobot-contouring-text">
-                    As <strong>Electrical Director</strong>, I lead our <strong>BMS</strong>, <strong>Power & Signals</strong>,
-                    <strong>Embedded Systems</strong>, and <strong>Race Strategy</strong> teams with the goal of delivering a
-                    reliable, low-power, lightweight electrical system capable of <strong>real-time telemetry</strong> and
+                    As <strong>Electrical Director</strong>, I lead our BMS, Power & Signals,
+                    Embedded Systems, and Race Strategy subteams with the goal of delivering a
+                    <strong>reliable, low-power, lightweight electrical system</strong> capable of <strong>real-time telemetry</strong> and
                     <strong>data-driven performance</strong> at 
                     <a href="https://www.americansolarchallenge.org/" target="_blank" rel="noopener noreferrer">
                         <em>FSGP</em> and <em>ASC</em>
@@ -45,21 +46,18 @@ const AgroBot = () => {
                 <p class="agrobot-contouring-text">
                     I also focus heavily on <strong>industry outreach</strong>, securing sponsorships and technical collaborations
                     with companies such as <strong>Moment Energy</strong>, <strong>Intel</strong>, and <strong>NETGEAR</strong>.
-                    These partnerships strengthen our engineering pipeline while elevating <strong>UBC Solar</strong>'s visibility
+                    These partnerships strengthen our engineering career pipeline while elevating <strong>UBC Solar</strong>'s visibility
                     within industry.
                 </p>
 
                 <img src={CompPic} alt="Aarjav at competition" class="happy-aarjav-image" style="width:50%; height:auto;" draggable="false" />
 
                 <p class="agrobot-contouring-text">
-                    Most importantly, I work to <strong>motivate and align a 75-member electrical organization</strong> by fostering
+                    Most importantly, the executive team and I work to <strong>motivate and align a 75-member electrical organization</strong> by fostering
                     proactive communication, clear expectations, and strong team culture. Leading such a large interdisciplinary 
                     team has pushed me to grow beyond technical work and into building the systems, processes, and momentum 
-                    that carry us into competition with confidence.
+                    that carry us into future competitions and car revisions with confidence.
                 </p>
-
-                <img src={FullTeam} alt="UBC Solar Electrical Team" class="happy-aarjav-image" style="width:120%; height:auto;" draggable="false" />
-
 
                 <h2 className="agrobot-title-2">Embedded Systems Tead Lead (June 2024 - Present)</h2>
                 <p className="agrobot-contouring-text">
