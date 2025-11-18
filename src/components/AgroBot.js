@@ -22,11 +22,11 @@ const AgroBot = () => {
             <div className="solar">
                 <h1 className="agrobot-title">UBC Solar</h1>
                 <img src={SolarLogo} alt="Solar logo" className="agrobot-logo" draggable="false" />
-                <img src={FullTeam} alt="UBC Solar Team" class="happy-aarjav-image" style="width:120%; height:auto;" draggable="false" />
+                <img src={FullTeam} alt="UBC Solar Team" className="happy-aarjav-image" style={{ width: "120%", height: "auto" }} draggable="false" />
 
-                <h2 class="agrobot-title-2"><strong>Electrical Director</strong> (June 2025 – Present)</h2>
+                <h2 className="agrobot-title-2"><strong>Electrical Director</strong> (June 2025 – Present)</h2>
 
-                <p class="agrobot-contouring-text">
+                <p className="agrobot-contouring-text">
                     As <strong>Electrical Director</strong>, I lead our BMS, Power & Signals,
                     Embedded Systems, and Race Strategy subteams with the goal of delivering a
                     <strong>reliable, low-power, lightweight electrical system</strong> capable of <strong>real-time telemetry</strong> and
@@ -41,18 +41,18 @@ const AgroBot = () => {
                     </a>.
                 </p>
 
-                <img src={Yeti} alt="Portrait of Aarjav" class="happy-aarjav-image" style="width:50%; height:auto;" draggable="false" />
+                <img src={Yeti} alt="Portrait of Aarjav" className="happy-aarjav-image" style={{ width: "50%", height: "auto" }} draggable="false" />
 
-                <p class="agrobot-contouring-text">
+                <p className="agrobot-contouring-text">
                     I also focus heavily on <strong>industry outreach</strong>, securing sponsorships and technical collaborations
                     with companies such as <strong>Moment Energy</strong>, <strong>Intel</strong>, and <strong>NETGEAR</strong>.
                     These partnerships strengthen our engineering career pipeline while elevating <strong>UBC Solar</strong>'s visibility
                     within industry.
                 </p>
 
-                <img src={CompPic} alt="Aarjav at competition" class="happy-aarjav-image" style="width:50%; height:auto;" draggable="false" />
+                <img src={CompPic} alt="Aarjav at competition" className="happy-aarjav-image" style={{ width: "50%", height: "auto" }} draggable="false" />
 
-                <p class="agrobot-contouring-text">
+                <p className="agrobot-contouring-text">
                     Most importantly, the executive team and I work to <strong>motivate and align a 75-member electrical organization</strong> by fostering
                     proactive communication, clear expectations, and strong team culture. Leading such a large interdisciplinary 
                     team has pushed me to grow beyond technical work and into building the systems, processes, and momentum 
@@ -76,7 +76,7 @@ const AgroBot = () => {
                 <img
                         src={SolarCar}
                         alt="Solar Car in the Sun"
-                        class="happy-aarjav-image"
+                        className="happy-aarjav-image"
                         draggable="false"
                 />
                 <h2 className="agrobot-title-2">Embedded Systems Engineer (September 2023 - June 2024)</h2>
@@ -91,7 +91,7 @@ const AgroBot = () => {
                 <img
                         src={HappyAarjav}
                         alt="Picture of Aarjav working on pedal on Solar Car"
-                        class="happy-aarjav-image"
+                        className="happy-aarjav-image"
                         draggable="false"
                 />
                 <p className="agrobot-contouring-text">
@@ -105,7 +105,7 @@ const AgroBot = () => {
                 <img
                         src={GrafanaGoodData}
                         alt="Good data we got on Grafana when racing"
-                        class="happy-aarjav-image"
+                        className="happy-aarjav-image"
                         draggable="false"
                 />
                 <p className="agrobot-contouring-text">
@@ -117,17 +117,17 @@ const AgroBot = () => {
                     the video on the right displaying the data on one of our Grafana dashboards and a flurry
                     of pretty printed tables.
                 </p>
-                <div class="image-container">
+                <div className="image-container">
                     <img
                         src={ExampleDebug}
                         alt="Example debug message from custom exception generator"
-                        class="debug-image"
+                        className="debug-image"
                         draggable="false"
                     />
                     <img
                         src={SunlinkGIF}
                         alt="Gif of sunlink in action"
-                        class="gif-image"
+                        className="gif-image"
                         draggable="false"
                     />
                 </div>
@@ -156,7 +156,7 @@ const AgroBot = () => {
                     the CAN bus{" "}
                     <a
                         href="https://mdh.diva-portal.org/smash/get/diva2:1735813/FULLTEXT01.pdf"
-                        class="paper-link"
+                        className="paper-link"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
