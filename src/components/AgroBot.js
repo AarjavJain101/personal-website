@@ -45,7 +45,7 @@ const AgroBot = () => {
                     My role involves coordinating cross-team design decisions, driving <strong>first-principles design reviews</strong>,
                     and ensuring our electrical architecture stays compliant with 
                     <a href="https://www.americansolarchallenge.org/wp-content/uploads/2025/10/ASC2026_Regulations_RevisionA.pdf" target="_blank" rel="noopener noreferrer">
-                        <em>American Solar Challenge regulations</em>
+                        <em> American Solar Challenge regulations</em>
                     </a>.
                 </p>
 
