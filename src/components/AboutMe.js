@@ -39,16 +39,15 @@ const AboutMe = (props) => {
                 </div>
                 <div className="about-me-text">
                     <p className="about-me-leader-text">
-                        Throughout my life I have been a mentor for others. Early in high school as an Air Cadet and various volunteering oppurtunities 
+                        I have always been a mentor for others. Early in high school as an Air Cadet 
                         to being the Electrical Director at UBC Solar, I strive
                         to bring out the best in myself and others. <strong>"If you want to go fast, go alone;
-                        if you want to go far, go together"</strong>,. I want my team and I to go far. 
+                        if you want to go far, go together"</strong>. I want my team and I to go far. 
                     </p>
                     <p className="about-me-profile-picture-text">
                         Hey! <strong>I am Aarjav Jain</strong>, a computer engineer studying at UBCV. Whether
                         its in my academics or personal life I enjoy tackling challenges I set for myself. Most notably I love 
-                        working on my design team UBC Solar because its the perfect place for challenging yourself to your liimits. 
-                        With the aim of running it like a start-up I attain incredible technical and mental growth in short periods of time. 
+                        working on my design team, UBC Solar, because its the perfect place for challenging yourself to your limits. 
                         Overall, I desire to use my critical thinking
                         skills, resiliency, and innovative nature to push myself and others. View my projects
                         so far on the Projects page!
@@ -64,12 +63,10 @@ const AboutMe = (props) => {
                         </button>
                     </p>
                     <p className="about-me-learner-text">
-                        I’m focused on growing into the person I want to be by continually disciplining myself and tracking how much I learn. 
-                        Right now, I’m fully committed to my design team through the 2027 Formula Sun Grand Prix, 
-                        which gives me the chance to understand our car in depth. As Electrical Director, my priority has shifted from just 
-                        learning technical skills to <strong>learning how to build a high-performing team that will one-day make it to the World Solar Challenge.</strong>
-                        I see these next two years as a rare, self-directed challenge. A chance to design my own learning environment, push my limits, 
-                        and treat UBC Solar <strong>like a startup that forces maximum growth.</strong>
+                        I see the time until 2027's competition as a rare, self-directed challenge. 
+                        A chance to forge my own path and push my limits. As such I
+                        treat UBC Solar <strong>like a startup</strong>.
+                        So, my priority is to <strong>learn how to build a high-performing team that will go to World Solar Challenge one day.</strong>
                     </p>
                 </div>
             </div>
